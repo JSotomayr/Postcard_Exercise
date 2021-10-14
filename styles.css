@@ -14,14 +14,14 @@ body {
 .postcard-header {
 	display: flex;
 }
-img {
+.pic {
 	width: 80px;
 	height: 90px;
 }
-h1 {
+.heading {
 	font-family: "Courier";
 	font-size: 30px;
-	width: 420px;
+	width: 410px;
 	margin: 0px;
 	padding-top: 25px;
 }
@@ -32,7 +32,7 @@ h1 {
 	padding-left: 15px;
 	padding-right: 25px;
 }
-p {
+.text {
 	font-family: "courier new";
 	font-size: 20px;
 }
@@ -41,15 +41,39 @@ p {
 	padding-right: 10px;
 	padding-left: 10px;
 }
-input {
-	width: 200px;
+.list {
+	list-style: none;
+}
+.name {
+	width: 190px;
+	height: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: none;
+	border-bottom: 1px solid rgb(163, 163, 163);
+}
+.email {
+	width: 190px;
+	height: 30px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: none;
+	border-bottom: 1px solid rgb(201, 201, 201);
+}
+.comments {
+	width: 190px;
+	height: 30px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 	border: none;
 	border-bottom: 1px solid rgb(201, 201, 201);
 }
 .postcard-footer {
 	text-align: center;
 }
-#boton {
+.boton {
 	font-size: 18px;
 	background: rgb(150, 150, 150);
 	padding-left: 5px;

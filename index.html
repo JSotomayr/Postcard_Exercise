@@ -10,28 +10,38 @@
 	<body>
 		<div class="postcard">
 			<div class="postcard-header">
-				<h1 id="Heading"><i class="fas fa-laptop"></i> Mi primera página</h1>
-				<img
-					src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
-				/>
+				<div>
+					<h1 class="heading"><i class="fas fa-laptop"></i> Mi primera página</h1>
+				</div>
+				<div>
+					<img
+						class="pic"
+						src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
+					/>
+				</div>
 			</div>
 			<div class="postcard-body">
 				<div class="body-left">
-					<p>¡Mira que guay! ¡Esta es una página que he creado utilizando HTML5 y CSS3 en mi curso con 4GEEKS Academy!</p>
-					<p>¡Esto mola, no puedo esperar a hacer más cosas!</p>
+					<p class="text">¡Mira que guay! ¡Esta es una página que he creado utilizando HTML5 y CSS3 en mi curso con 4GEEKS Academy!</p>
+					<p class="text">¡Esto mola, no puedo esperar a hacer más cosas!</p>
 				</div>
 				<div class="body-right">
-					<br />
-					<input placeholder="Name" type="text" id="name" name="name" /><br /><br />
-					<br />
-					<input placeholder="E-mail" type="text" id="email" name="email" /><br /><br />
-					<br />
-					<input placeholder="Comments" type="text" id="comments" name="comments" /><br /><br />
+					<ul class="list">
+						<li>
+							<input class="name" placeholder="Name" type="text" id="name" name="name" />
+						</li>
+						<li>
+							<input class="email" placeholder="E-mail" type="text" id="email" name="email" />
+						</li>
+						<li>
+							<input class="comments" placeholder="Comments" type="text" id="comments" name="comments" />
+						</li>
+					</ul>
 				</div>
 			</div>
-			<br />
+
 			<div class="postcard-footer">
-				<input id="boton" type="submit" value="Enviar" />
+				<input class="boton" type="submit" value="Enviar" />
 			</div>
 		</div>
 	</body>
